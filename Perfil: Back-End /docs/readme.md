@@ -18,7 +18,7 @@ El objetivo es evaluar tus conocimientos en:
 
 ---
 
-## 🛠 **Tecnologías Utilizadas**
+## **Tecnologías Utilizadas**
 - **Python 3.8+**
 - **FastAPI**
 - **Uvicorn** (servidor ASGI)
@@ -26,9 +26,6 @@ El objetivo es evaluar tus conocimientos en:
 - **Herramienta de prueba:** Hoppscotch (o Postman)
 
 ---
-
-##  **Estructura del Proyecto**
-
 ## Estructura del Proyecto
 - `src/main.py`: Código de la API en FastAPI.
 - `tests/test_api.py`: Pruebas unitarias.
