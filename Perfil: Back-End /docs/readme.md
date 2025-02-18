@@ -1,7 +1,33 @@
 # Prueba Técnica: Back-End con FastAPI
 
-##Descripción
-El objetivo de este reto es implementar un método en una API con FastAPI y probarlo con una herramienta online.
+
+## Descripción
+Bienvenida a la prueba técnica para el perfil **Back-End con FastAPI**. En este reto, deberás implementar un **endpoint en FastAPI** que permita agregar usuarios a una lista en memoria. Luego, deberás probar tu implementación usando una herramienta online como **Hoppscotch**.
+
+El objetivo es evaluar tus conocimientos en:
+- FastAPI y la creación de endpoints.
+- Buenas prácticas de desarrollo y estructuración del código.
+- Pruebas básicas para validar la funcionalidad de la API.
+
+---
+
+##  **Objetivo**
+1. Implementar un **endpoint POST** en FastAPI que agregue un usuario a una lista en memoria.
+2. Probar el endpoint utilizando **Hoppscotch** o cualquier otra herramienta online de pruebas HTTP.
+3. Documentar los pasos seguidos para la solución.
+
+---
+
+## 🛠 **Tecnologías Utilizadas**
+- **Python 3.8+**
+- **FastAPI**
+- **Uvicorn** (servidor ASGI)
+- **Pydantic** (para validación de datos)
+- **Herramienta de prueba:** Hoppscotch (o Postman)
+
+---
+
+##  **Estructura del Proyecto**
 
 ## Estructura del Proyecto
 - `src/main.py`: Código de la API en FastAPI.
@@ -14,16 +40,24 @@ El objetivo de este reto es implementar un método en una API con FastAPI y prob
    ```sh
    git clone https://github.com/tuusuario/backend-fastapi-test.git
    cd backend-fastapi-test
+   
+2. Instala las dependencias:
+   ```sh
+   pip install -r src/requirements.txt
 
-##Ejercicio
-Completar un método de una API y probarlo con una herramienta online
-##Solución Propuesta
-1. Usar FastAPI en un IDE online:
-Recurso: replit.com → Crear un nuevo proyecto en Python.
-2. Crear un endpoint en FastAPI:
-Implementar un método POST para agregar un usuario a una lista en memoria.
-3. Probar la API con una herramienta online:
-Recurso: hoppscotch.io para hacer una petición POST y verificar la respuesta.
-4. Prueba Online
-Enviar una petición POST a http://localhost:8000/add_user/?name=Ana desde Hoppscotch y verificar la respuesta.
+3. Ejecuta la API con Uvicorn
+   ```sh
+   uvicorn src.main:app --reload
+
+
+4.  Probar la API con Hoppscotch
+Ir a Hoppscotch.io.
+Seleccionar el método POST.
+Ingresar la URL http://localhost:8000/add_user/.
+En la pestaña Body, seleccionar JSON y agregar:
+ 
+ ```json
+ {
+  "name": "Ana"
+}
 
