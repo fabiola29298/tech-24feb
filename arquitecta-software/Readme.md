@@ -23,7 +23,8 @@ En este reto, analizarás y representarás visualmente una **arquitectura de alt
 ## **Estructura del Proyecto**  
 📂 arquitectura-software
 │── 📂 docs
-│ │── 📄 README.md # Instrucciones generales
-│── 📂 referencias
-│ │── 📄 arquitectura_referencia.png # Imagen de referencia de AWS
-│── 📄 README.md # Descripción del reto
+│── README.md # Instrucciones generales
+│── arquitectura_referencia.png # Imagen de referencia de AWS
+│── Ejemplo de explicación de arquitectura 
+│── Recursos disponibles 
+│── Entrega de prueba 
