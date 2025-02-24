@@ -29,7 +29,7 @@ En este reto, analizarás y completarás un **Smart Contract en Solidity** para 
 
 ### **Escribir el Smart Contract en Remix**  
 **Abrir Remix IDE** y crear un nuevo archivo Solidity (`simple_payment.sol`).  
- **Escribir el código que encontrarás en el archivo: ismple_payment.sol 
+ **Escribir el código que encontrarás en el archivo: simple_payment.sol 
 -----
 
 ## Compilar y Desplegar el Smart Contract
